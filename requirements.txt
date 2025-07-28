@@ -3,3 +3,5 @@ pymongo
 motor
 requests
 python-dotenv
+pytz
+dnspython
