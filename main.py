@@ -4,7 +4,9 @@ BGMI Tournament Management Telegram Bot
 🚫 No Mercy 🚫
 """
 
+import sys
 import os
+sys.path.append(os.path.dirname(__file__))
 import logging
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters
 from datetime import datetime
