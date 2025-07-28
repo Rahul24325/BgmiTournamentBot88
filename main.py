@@ -5,7 +5,7 @@ BGMI Tournament Management Telegram Bot
 """
 
 
-from handlers.user_handlers import ...
+import handlers.user_handlers as user_handlers
 import os
 sys.path.append(os.path.dirname(__file__))
 import os
