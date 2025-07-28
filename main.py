@@ -4,9 +4,13 @@ BGMI Tournament Management Telegram Bot
 🚫 No Mercy 🚫
 """
 
-import sys
+
+from handlers.user_handlers import ...
 import os
 sys.path.append(os.path.dirname(__file__))
+import os
+print("Current working directory:", os.getcwd())
+print("Files in current dir:", os.listdir())
 import logging
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters
 from datetime import datetime
